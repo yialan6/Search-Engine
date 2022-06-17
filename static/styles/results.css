@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(#e7eff6, #adcbe3);
+    height: 100vh
+}
+
+h1 {
+    color: #ea8a81;
+}
+
+.link {
+    padding: 5px;
+}

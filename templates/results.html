@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+
+<head>
+    <title>Search Engine</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/results.css') }}">
+
+</head>
+
+<body>
+    <h1>Results for "{{query}}" in {{time}} ms</h1>
+    {% for x in content%}
+    <div class='link'><a href={{x}}>{{x}}</a></div>
+    {% endfor %}
+</body>
+
+
+</html>
