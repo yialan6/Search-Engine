@@ -1,4 +1,4 @@
-# UCI CS121 Search Engine
+#Search Engine
 
 A search engine application that handles queries and displays results in under 300ms by searching through UCI's Informatics of Computer Science Department's corpus.
 
